@@ -1,4 +1,5 @@
 #!/usr/bin/perl
+# test with TT variables
 use strict;
 use warnings;
 use Template;
@@ -10,7 +11,7 @@ $Template::Test::DEBUG = 1;
 my $tt = Template->new;
 
 my $vars = {
-	var => 'world',
+	var0 => 'world',
 };
 
 test_expect(\*DATA, $tt, $vars);
@@ -25,7 +26,7 @@ __DATA__
   %meta{:charset => "utf-8"}
   %title hello
  %body
-  %p hello [% world %]
+  %p hello [% var0 %]
 [%- END -%]
 --expect--
 <!DOCTYPE html>
