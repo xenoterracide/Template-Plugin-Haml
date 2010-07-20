@@ -41,8 +41,8 @@ version 0.1.0
 	[%- FILTER haml -%]
 	%p Hello World
 	[%- END -%]
-	
-    <p>Hello World</p>
+
+	<p>Hello World</p>
 
 =head1 DESCRIPTION
 
