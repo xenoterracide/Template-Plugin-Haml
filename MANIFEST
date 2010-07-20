@@ -9,6 +9,7 @@ lib/Template/Plugin/Haml.pm
 t/00-compile.t
 t/000-report-versions.t
 t/01-basic-html5.t
+t/02-html5-with-vars.t
 t/author-critic.t
 t/release-dist-manifest.t
 t/release-distmeta.t

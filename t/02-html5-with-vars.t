@@ -9,7 +9,11 @@ $Template::Test::DEBUG = 1;
 
 my $tt = Template->new;
 
-test_expect(\*DATA, $tt);
+my $vars = {
+	var => 'world',
+};
+
+test_expect(\*DATA, $tt, $vars);
 
 __DATA__
 --test--
@@ -21,7 +25,7 @@ __DATA__
   %meta{:charset => "utf-8"}
   %title hello
  %body
-  %p hello world
+  %p hello [% world %]
 [%- END -%]
 --expect--
 <!DOCTYPE html>
