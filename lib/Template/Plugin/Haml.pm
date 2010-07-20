@@ -33,13 +33,12 @@ sub filter {
 
 A thin wrapper around L<Text::Haml> when you load the plugin it creates a
 filter called haml that you can use in a normal way. A full descritption of
-the Haml language can be found at
-L<<a href="http://haml-lang.com/">haml-lang.com</a>>. Haml is a terse and
-whitespace sensitive html, xhtml, and xml templating system. Compared to
-Template Toolkit however it is relatively limited in what you can do. It by
-itself contains no includes, conditionals, or loop constructs. So I've
-combined it here with TT to make writing those kinds of templates with even
-less code easier.
+the Haml language can be found on L<the haml site|http://haml-lang.com>. Haml
+is a terse and whitespace sensitive html, xhtml, and xml templating system.
+Compared to Template Toolkit however it is relatively limited in what you can
+do. It by itself contains no includes, conditionals, or loop constructs. So
+I've combined it here with TT to make writing those kinds of templates with
+even less code easier.
 
 =head2 EXAMPLE
 
@@ -119,7 +118,8 @@ method that acutally does the transformation
 
 =head1 ACKNOWLEDGEMENTS
 
-Thanks to kd, mst, Khisanth, aef on irc://irc.perl.org/tt for helping me
+Thanks to kd, mst, Khisanth, aef on L<#tt on
+irc.perl.org|irc://irc.perl.org/tt> for helping me
 figure out why my first try didn't work
 
 =head1 BUGS
