@@ -4,6 +4,17 @@ NAME
 VERSION
     version 0.1.0
 
+  Methods
+    init
+        initializes the the filter object
+
+    filter
+        method that acutally does the transformation
+
+ACKNOWLEDGEMENTS
+    Thanks to kd, mst, Khisanth, aef on irc://irc.perl.org/tt for helping me
+    figure out why my first try didn't work
+
 AUTHOR
     Caleb Cushing <xenoterracide@gmail.com>
 
