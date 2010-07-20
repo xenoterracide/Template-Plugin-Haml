@@ -16,7 +16,7 @@ sub init {
 }
 
 sub filter {
-	my ( $self, $text, $args, $config ) = @_;
+	my ( $self, $text ) = @_;
 
 	my $haml = Text::Haml->new;
 	return $haml->render($text);
