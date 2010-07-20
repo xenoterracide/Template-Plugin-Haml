@@ -9,11 +9,7 @@ $Template::Test::DEBUG = 1;
 
 my $tt = Template->new;
 
-my $vars = {
-	var => 'world',
-};
-
-test_expect(\*DATA, $tt, $vars);
+test_expect(\*DATA, $tt);
 
 __DATA__
 --test--
