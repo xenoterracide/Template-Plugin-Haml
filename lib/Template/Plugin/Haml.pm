@@ -20,3 +20,21 @@ sub filter {
 }
 1;
 # ABSTACT: HAML plugin for Template Toolkit
+=head2 Methods
+
+=over
+
+=item init
+
+initializes the the filter object
+
+=item filter
+
+method that acutally does the transformation
+
+=back
+
+=head1 ACKNOWLEDGEMENTS
+
+Thanks to kd, mst, Khisanth, aef on irc://irc.perl.org/tt for helping me
+figure out why my first try didn't work
