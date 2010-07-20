@@ -19,3 +19,4 @@ sub filter {
 	return $haml->render($text);
 }
 1;
+# ABSTACT: HAML plugin for Template Toolkit
