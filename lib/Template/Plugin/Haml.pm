@@ -20,6 +20,16 @@ sub filter {
 }
 1;
 # ABSTACT: HAML plugin for Template Toolkit
+=head1 SYNOPSIS
+
+	[%- USE Haml -%]
+	[%- FILTER haml -%]
+	%p Hello World
+	[%- END -%]
+
+	<p>Hello World</p>
+
+=head1 DESCRIPTION
 =head2 Methods
 
 =over
@@ -38,3 +48,15 @@ method that acutally does the transformation
 
 Thanks to kd, mst, Khisanth, aef on irc://irc.perl.org/tt for helping me
 figure out why my first try didn't work
+
+=head1 BUGS
+
+=over
+
+=item HAML variables don't work
+
+use TT style variables instead
+
+=back
+
+=cut
