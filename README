@@ -9,8 +9,8 @@ SYNOPSIS
             [%- FILTER haml -%]
             %p Hello World
             [%- END -%]
-
-            <p>Hello World</p>
+        
+        <p>Hello World</p>
 
 DESCRIPTION
     A thin wrapper around Text::Haml when you load the plugin it creates a
