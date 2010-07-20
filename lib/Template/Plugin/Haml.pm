@@ -44,6 +44,7 @@ less code easier.
 =head2 EXAMPLE
 
 =head3 input template
+
 B<wrapper.tt>
 
 	!!! 5
