@@ -1,0 +1,3 @@
+Revision history for Template::Plugin::Haml
+{{$NEXT}}
+	- First rudimentary version.  Patches and comments welcome.
