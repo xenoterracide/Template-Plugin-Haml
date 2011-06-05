@@ -1,8 +1,8 @@
 Revision history for Template::Plugin::Haml
 0.1.2     2011-06-05
 
-0.1.1     Jul 28 2010
+0.1.1     2010-07-28
 	- Minor Pod bugfixes
 
-0.1.0     Jul 20 2010
+0.1.0     2010-07-20
 	- First rudimentary version.  Patches and comments welcome.
