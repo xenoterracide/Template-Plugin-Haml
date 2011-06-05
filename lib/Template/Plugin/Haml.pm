@@ -1,6 +1,10 @@
+package Template::Plugin::Haml;
+use 5.006;
 use strict;
 use warnings;
-package Template::Plugin::Haml;
+BEGIN {
+	# VERSION
+}
 
 use parent 'Template::Plugin::Filter';
 use Text::Haml;
@@ -19,7 +23,7 @@ sub filter {
 	return $haml->render($text);
 }
 1;
-# ABSTACT: HAML plugin for Template Toolkit
+# ABSTRACT: HAML plugin for Template Toolkit
 =head1 SYNOPSIS
 
 	[%- USE Haml -%]
