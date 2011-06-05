@@ -27,5 +27,9 @@ ACKNOWLEDGEMENTS
 Haml
 Khisanth
 mst
+xml
+xhtml
+tt
+TT
 Caleb
 Cushing

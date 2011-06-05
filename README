@@ -1,5 +1,5 @@
 NAME
-    Template::Plugin::Haml - HAML plugin for Template Toolkit
+    Template::Plugin::Haml - Haml plugin for Template Toolkit
 
 VERSION
     version 0.1.2
@@ -87,7 +87,7 @@ DESCRIPTION
         initializes the the filter object
 
     filter
-        method that acutally does the transformation
+        method that actually does the transformation
 
 ACKNOWLEDGEMENTS
     Thanks to kd, mst, Khisanth, aef on #tt on irc.perl.org

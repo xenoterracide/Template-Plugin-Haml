@@ -23,14 +23,14 @@ sub filter {
 	return $haml->render($text);
 }
 1;
-# ABSTRACT: HAML plugin for Template Toolkit
+# ABSTRACT: Haml plugin for Template Toolkit
 
 __END__
 =pod
 
 =head1 NAME
 
-Template::Plugin::Haml - HAML plugin for Template Toolkit
+Template::Plugin::Haml - Haml plugin for Template Toolkit
 
 =head1 VERSION
 
@@ -128,7 +128,7 @@ initializes the the filter object
 
 =item filter
 
-method that acutally does the transformation
+method that actually does the transformation
 
 =back
 

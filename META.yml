@@ -1,5 +1,5 @@
 ---
-abstract: 'HAML plugin for Template Toolkit'
+abstract: 'Haml plugin for Template Toolkit'
 author:
   - 'Caleb Cushing <xenoterracide@gmail.com>'
 build_requires:
