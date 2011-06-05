@@ -24,11 +24,13 @@ all_pod_files_spelling_ok('lib');
 __DATA__
 SubmittingPatches
 ACKNOWLEDGEMENTS
-Haml
 Khisanth
 mst
+Haml
+haml
 xml
 xhtml
+html
 tt
 TT
 Caleb
