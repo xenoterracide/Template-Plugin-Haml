@@ -2,9 +2,9 @@
 use strict;
 use warnings;
 
+use 5.006;
 
-
-use ExtUtils::MakeMaker 6.31;
+use ExtUtils::MakeMaker 6.30;
 
 
 
@@ -19,11 +19,10 @@ my %WriteMakefileArgs = (
     'Scalar::Util' => '0',
     'Template' => '0',
     'Template::Test' => '0',
-    'Test::More' => '0.94',
-    'perl' => '5.004'
+    'Test::More' => '0.94'
   },
   'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.31'
+    'ExtUtils::MakeMaker' => '6.30'
   },
   'DISTNAME' => 'Template-Plugin-Haml',
   'EXE_FILES' => [],
@@ -34,7 +33,7 @@ my %WriteMakefileArgs = (
     'Text::Haml' => '0',
     'parent' => '0'
   },
-  'VERSION' => '0.1.0',
+  'VERSION' => '0.1.2',
   'test' => {
     'TESTS' => 't/*.t'
   }

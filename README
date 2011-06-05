@@ -1,8 +1,8 @@
 NAME
-    Template::Plugin::Haml
+    Template::Plugin::Haml - HAML plugin for Template Toolkit
 
 VERSION
-    version 0.1.0
+    version 0.1.2
 
 SYNOPSIS
             [%- USE Haml -%]
@@ -15,17 +15,18 @@ SYNOPSIS
 DESCRIPTION
     A thin wrapper around Text::Haml when you load the plugin it creates a
     filter called haml that you can use in a normal way. A full descritption
-    of the Haml language can be found at "/haml-lang.com/"" in <a
-    href="http:haml-lang.com</a>>. Haml is a terse and whitespace sensitive
-    html, xhtml, and xml templating system. Compared to Template Toolkit
-    however it is relatively limited in what you can do. It by itself
-    contains no includes, conditionals, or loop constructs. So I've combined
-    it here with TT to make writing those kinds of templates with even less
-    code easier.
+    of the Haml language can be found on the haml site
+    <http://haml-lang.com>. Haml is a terse and whitespace sensitive html,
+    xhtml, and xml templating system. Compared to Template Toolkit however
+    it is relatively limited in what you can do. It by itself contains no
+    includes, conditionals, or loop constructs. So I've combined it here
+    with TT to make writing those kinds of templates with even less code
+    easier.
 
   EXAMPLE
    input template
-wrapper.tt
+    wrapper.tt
+
             !!! 5
             %html
             [% content %]
@@ -89,8 +90,9 @@ wrapper.tt
         method that acutally does the transformation
 
 ACKNOWLEDGEMENTS
-    Thanks to kd, mst, Khisanth, aef on irc://irc.perl.org/tt for helping me
-    figure out why my first try didn't work
+    Thanks to kd, mst, Khisanth, aef on #tt on irc.perl.org
+    <irc://irc.perl.org/tt> for helping me figure out why my first try
+    didn't work
 
 BUGS
     HAML variables don't work
@@ -100,9 +102,9 @@ AUTHOR
     Caleb Cushing <xenoterracide@gmail.com>
 
 COPYRIGHT AND LICENSE
-    This software is Copyright (c) 2010 by Caleb Cushing.
+    This software is Copyright (c) 2011 by Caleb Cushing.
 
     This is free software, licensed under:
 
-      The Artistic License 2.0
+      The Artistic License 2.0 (GPL Compatible)
 

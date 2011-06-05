@@ -1,8 +1,9 @@
+package Template::Plugin::Haml;
+use 5.006;
 use strict;
 use warnings;
-package Template::Plugin::Haml;
 BEGIN {
-  $Template::Plugin::Haml::VERSION = '0.1.0';
+	our $VERSION = '0.1.2'; # VERSION
 }
 
 use parent 'Template::Plugin::Filter';
@@ -22,18 +23,18 @@ sub filter {
 	return $haml->render($text);
 }
 1;
-# ABSTACT: HAML plugin for Template Toolkit
+# ABSTRACT: HAML plugin for Template Toolkit
 
 __END__
 =pod
 
 =head1 NAME
 
-Template::Plugin::Haml
+Template::Plugin::Haml - HAML plugin for Template Toolkit
 
 =head1 VERSION
 
-version 0.1.0
+version 0.1.2
 
 =head1 SYNOPSIS
 
@@ -48,17 +49,17 @@ version 0.1.0
 
 A thin wrapper around L<Text::Haml> when you load the plugin it creates a
 filter called haml that you can use in a normal way. A full descritption of
-the Haml language can be found at
-L<<a href="http://haml-lang.com/">haml-lang.com</a>>. Haml is a terse and
-whitespace sensitive html, xhtml, and xml templating system. Compared to
-Template Toolkit however it is relatively limited in what you can do. It by
-itself contains no includes, conditionals, or loop constructs. So I've
-combined it here with TT to make writing those kinds of templates with even
-less code easier.
+the Haml language can be found on L<the haml site|http://haml-lang.com>. Haml
+is a terse and whitespace sensitive html, xhtml, and xml templating system.
+Compared to Template Toolkit however it is relatively limited in what you can
+do. It by itself contains no includes, conditionals, or loop constructs. So
+I've combined it here with TT to make writing those kinds of templates with
+even less code easier.
 
 =head2 EXAMPLE
 
 =head3 input template
+
 B<wrapper.tt>
 
 	!!! 5
@@ -133,7 +134,8 @@ method that acutally does the transformation
 
 =head1 ACKNOWLEDGEMENTS
 
-Thanks to kd, mst, Khisanth, aef on irc://irc.perl.org/tt for helping me
+Thanks to kd, mst, Khisanth, aef on L<#tt on
+irc.perl.org|irc://irc.perl.org/tt> for helping me
 figure out why my first try didn't work
 
 =head1 BUGS
@@ -152,11 +154,11 @@ Caleb Cushing <xenoterracide@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2010 by Caleb Cushing.
+This software is Copyright (c) 2011 by Caleb Cushing.
 
 This is free software, licensed under:
 
-  The Artistic License 2.0
+  The Artistic License 2.0 (GPL Compatible)
 
 =cut
 
