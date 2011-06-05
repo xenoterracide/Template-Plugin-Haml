@@ -24,9 +24,12 @@ all_pod_files_spelling_ok('lib');
 __DATA__
 SubmittingPatches
 ACKNOWLEDGEMENTS
+aef
+kd
 Khisanth
 mst
 Haml
+Haml's
 haml
 xml
 xhtml
