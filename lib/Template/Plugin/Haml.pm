@@ -13,7 +13,7 @@ sub init {
 	my $self = shift;
 	$self->{_DYNAMIC} = 1;
 	$self->install_filter( $self->{_ARGS}->[0] || 'haml');
-	$self;
+	return $self;
 }
 
 sub filter {
