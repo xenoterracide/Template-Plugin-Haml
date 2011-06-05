@@ -48,7 +48,7 @@ version 0.1.2
 =head1 DESCRIPTION
 
 A thin wrapper around L<Text::Haml> when you load the plugin it creates a
-filter called haml that you can use in a normal way. A full descritption of
+filter called haml that you can use in a normal way. A full description of
 the Haml language can be found on L<the haml site|http://haml-lang.com>. Haml
 is a terse and whitespace sensitive html, xhtml, and xml templating system.
 Compared to Template Toolkit however it is relatively limited in what you can
@@ -142,7 +142,7 @@ figure out why my first try didn't work
 
 =over
 
-=item HAML variables don't work
+=item Haml variables don't work
 
 use TT style variables instead
 

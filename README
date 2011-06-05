@@ -14,7 +14,7 @@ SYNOPSIS
 
 DESCRIPTION
     A thin wrapper around Text::Haml when you load the plugin it creates a
-    filter called haml that you can use in a normal way. A full descritption
+    filter called haml that you can use in a normal way. A full description
     of the Haml language can be found on the haml site
     <http://haml-lang.com>. Haml is a terse and whitespace sensitive html,
     xhtml, and xml templating system. Compared to Template Toolkit however
@@ -95,7 +95,7 @@ ACKNOWLEDGEMENTS
     didn't work
 
 BUGS
-    HAML variables don't work
+    Haml variables don't work
         use TT style variables instead
 
 AUTHOR
