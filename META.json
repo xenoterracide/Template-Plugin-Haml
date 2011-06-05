@@ -13,6 +13,11 @@
       "version" : "2"
    },
    "name" : "Template-Plugin-Haml",
+   "no_index" : {
+      "file" : [
+         "perlcritic.rc"
+      ]
+   },
    "prereqs" : {
       "configure" : {
          "requires" : {

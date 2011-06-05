@@ -20,6 +20,9 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Template-Plugin-Haml
+no_index:
+  file:
+    - perlcritic.rc
 requires:
   Template::Plugin::Filter: 0
   Text::Haml: 0
